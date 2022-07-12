@@ -1,0 +1,175 @@
+body {
+  background-color: #227967;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.titulo {
+  color: aliceblue;
+  position: absolute;
+  top: 5%;
+  left: 37%;
+
+  font-size: 45px;
+}
+.placar {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  align-items: flex-end;
+
+  font-size: 35px;
+  color: aliceblue;
+}
+
+.result-placar {
+  color: blanchedalmond;
+  position: absolute;
+  left: 80%;
+  top: 2%;
+  font-size: 21px;
+}
+
+.vogal-secreta {
+  color: rgb(97, 119, 101);
+  left: 25%;
+  top: 0%;
+  font-size: 156px;
+  width: 78px;
+  text-align: center;
+}
+.contorno-vogal {
+  position: absolute;
+  padding: 2rem 6rem 2rem 6rem;
+  background-color: #b8d7c0;
+}
+
+.fundo-detalhes {
+  position: relative;
+  background-color: #31553a;
+  width: 17rem;
+  height: 3rem;
+  left: 20.8rem;
+  top: 22rem;
+  text-align: center;
+  font-size: 32px;
+}
+
+.campo-entrada {
+  position: absolute;
+  left: 25%;
+  top: 75%;
+  width: 19%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.botao-entrada {
+  position: absolute;
+  left: 25.8%;
+  top: 84%;
+  width: 18%;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(143, 175, 166);
+  cursor: pointer;
+}
+
+.assinatura {
+  color: #b8d7c0;
+  position: absolute;
+  left: 84%;
+  top: 94%;
+}
+
+.termometro {
+  position: relative;
+  left: 0rem;
+  top: 19rem;
+  font-size: 3.5rem;
+}
+.oculto {
+  display: none;
+}
+.zero {
+  position: absolute;
+  background-color: #e485599d;
+  width: 10rem;
+  text-align: center;
+  top: 6.6rem;
+  left: -0.5rem;
+}
+.cinco {
+  position: absolute;
+  background-color: #35bda0;
+  width: 10rem;
+  text-align: center;
+  top: 2rem;
+  left: -0.5rem;
+}
+.dez {
+  position: absolute;
+  background-color: #7db58c;
+  width: 10rem;
+  left: -0.5rem;
+  top: -2.5rem;
+  text-align: center;
+}
+.quinze {
+  position: absolute;
+  background-color: #477d55;
+  width: 10rem;
+  text-align: center;
+  left: -0.5rem;
+  top: -7rem;
+}
+.vinte {
+  background-color: #31553a;
+  width: 10rem;
+  text-align: center;
+  top: -11.5rem;
+  left: -0.5rem;
+  position: absolute;
+}
+
+.perdeu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: #ffffff65;
+
+  text-align: center;
+
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.acertou {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: #ffffff65;
+
+  text-align: center;
+
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.tenteNovamente {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  border: none;
+  background-color: #fffffff3;
+  font-size: 30px;
+  width: 30%;
+  height: 5rem;
+  backdrop-filter: blur(3px);
+  z-index: 10;
+  cursor: pointer;
+  font-weight: bold;
+  border: 5px double #227967;
+}

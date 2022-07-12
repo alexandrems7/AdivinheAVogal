@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivinhe a vogal</title>
+  </head>
+  <body>
+    <div class="perdeu oculto">
+      <h1>Você perdeu! 😭</h1>
+    </div>
+    <div class="acertou oculto">
+      <h1>Parabéns! Você acertou. 😀</h1>
+    </div>
+    <button class="tenteNovamente" id="tenteNovamente">
+      Reiniciar este jogo ↩️
+    </button>
+    <h1 class="titulo">Adivinhe a vogal</h1>
+    <div class="placar">
+      <p class="texto-placar">Pontuação: <span id="pontuacao">20</span></p>
+      <p class="texto-placar">
+        Maior Pontuação: <span id="maior-pontuacao">20</span>
+      </p>
+      <p class="texto-placar">Nº de Jogos: <span id="num-jogos">20</span></p>
+    </div>
+    <div class="termometro">
+      <p class="vinte">20😍</p>
+      <p class="quinze">15😀</p>
+      <p class="dez">10🙂</p>
+      <p class="cinco">05😐</p>
+      <p class="zero">00🤨</p>
+    </div>
+    <div>
+      <p class="vogal-secreta contorno-vogal">?</p>
+      <div class="fundo-detalhes">
+        <p class="detalhes">Parabéns! 😀</p>
+      </div>
+
+      <section>
+        <input class="campo-entrada" id="input" />
+        <button class="botao-entrada">Verificar</button>
+      </section>
+    </div>
+    <p class="assinatura">Alexandre Martins dos Santos</p>
+    <script src="script.js"></script>
+  </body>
+</html>
